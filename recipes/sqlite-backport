@@ -1,0 +1,5 @@
+(sqlite-backport
+ :fetcher github
+ :commit "c5cca33e2dd2360c0f6d81064f86a4a266cfe4a2"
+ :repo "hxb2012/sqlite-backport"
+ :files (:defaults "sqlite-backport-module.c"))
