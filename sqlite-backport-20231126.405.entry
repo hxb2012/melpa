@@ -1,0 +1,13 @@
+(sqlite-backport .
+		 [(20231126 405)
+		  ((emacs
+		    (25 1)))
+		  "Backport SQLite database access from Emacs 29" tar
+		  ((:commit . "c5cca33e2dd2360c0f6d81064f86a4a266cfe4a2")
+		   (:authors
+		    ("Syohei YOSHIDA" . "syohex@gmail.com"))
+		   (:maintainers
+		    ("洪筱冰" . "hxb@localhost.localdomain"))
+		   (:maintainer "洪筱冰" . "hxb@localhost.localdomain")
+		   (:keywords "sqlite")
+		   (:url . "https://github.com/hxb2012/sqlite-backport"))])
