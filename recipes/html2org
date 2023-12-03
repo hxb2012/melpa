@@ -1,0 +1,4 @@
+(html2org
+ :fetcher github
+ :commit "5481bf5875429bf8d21a2b7f028121158bedf66d"
+ :repo "hxb2012/html2org.el"))
