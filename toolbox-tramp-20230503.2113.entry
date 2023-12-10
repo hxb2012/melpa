@@ -1,0 +1,17 @@
+(toolbox-tramp .
+	       [(20230503 2113)
+		((eglot
+		  (1 9))
+		 (tempel
+		  (0 5))
+		 (emacs
+		  (25 1)))
+		"Tramp connection to toolbx containers" tar
+		((:commit . "fdbc732f1b3bfef9e0bd13d3e2d867240611ecb9")
+		 (:authors
+		  ("Jeff Walsh" . "fejfighter@gmail.com"))
+		 (:maintainers
+		  ("Jeff Walsh" . "fejfighter@gmail.com"))
+		 (:maintainer "Jeff Walsh" . "fejfighter@gmail.com")
+		 (:keywords "convenience" "tools")
+		 (:url . "https://github.com/fejfighter/toolbox-tramp"))])
