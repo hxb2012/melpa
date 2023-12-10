@@ -1,0 +1,4 @@
+(toolbox-tramp
+ :fetcher github
+ :commit "fdbc732f1b3bfef9e0bd13d3e2d867240611ecb9"
+ :repo "fejfighter/toolbox-tramp")
