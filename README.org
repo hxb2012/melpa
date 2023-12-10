@@ -1,0 +1,27 @@
+#+TITLE: 我的美尔巴
+
+#+BEGIN_SRC emacs-lisp
+(add-to-list 'package-archives '("hxb" . "https://hxb2012.github.io/melpa/") t)
+(add-to-list 'package-archive-priorities '("hxb" . 1))
+#+END_SRC
+
+| 包名            | 源代码                 | 类别     | 功能                                    |
+|-----------------+------------------------+----------+-----------------------------------------|
+| flatpak-tramp   | [[https://github.com/hxb2012/flatpak-tramp][hxb2012/flatpak-tramp]]  | 自制     | Flatpak里Emacs在宿主环境里打开文件      |
+| html2org        | [[http://github.com/lujun9972/html2org.el][lunjun9972/html2org.el]] | 改进     | HTML转Org                               |
+| sqlite-backport | Emacs 29               | Backport | 老版本Emacs上用和Emacs 29相同SQLite API |
+
+* 更新记录
+
+** 2023-12-10
+
+- 添加 flatpak-tramp
+- 更新 html2org
+
+** 2023-12-03
+
+- 添加 html2org
+
+** 2023-11-26
+
+- 添加 sqlite-backport

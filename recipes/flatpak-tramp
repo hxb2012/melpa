@@ -1,0 +1,4 @@
+(flatpak-tramp
+ :fetcher github
+ :commit "94029eb8f992da224b6c62e0131857f39866f84c"
+ :repo "hxb2012/flatpak-tramp")
