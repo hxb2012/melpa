@@ -1,0 +1,15 @@
+(remu .
+      [(20231210 231)
+       ((emacs
+	 (29 0))
+	(org
+	 (9 6)))
+       "Org Mode侧栏" tar
+       ((:commit . "3f705476b2c84457a06a51cf3bde16232628f49e")
+	(:authors
+	 ("Jethro Kuan <jethrokuan95@gmail.com>, Carsten Dominik" . "carsten.dominik@gmail.com"))
+	(:maintainers
+	 ("洪筱冰" . "hxb@localhost.localdomain"))
+	(:maintainer "洪筱冰" . "hxb@localhost.localdomain")
+	(:keywords "org")
+	(:url . "https://github.com/hxb2012/remu"))])
