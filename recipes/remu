@@ -1,4 +1,4 @@
 (remu
  :fetcher github
- :commit "3f705476b2c84457a06a51cf3bde16232628f49e"
+ :commit "74a9a43ac6e56dbfb1c1a883e312126a4951eea7"
  :repo "hxb2012/remu"))
