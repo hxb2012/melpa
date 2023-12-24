@@ -1,11 +1,11 @@
 (remu .
-      [(20231210 231)
+      [(20231224 417)
        ((emacs
 	 (29 0))
 	(org
 	 (9 6)))
        "Org Mode侧栏" tar
-       ((:commit . "3f705476b2c84457a06a51cf3bde16232628f49e")
+       ((:commit . "74a9a43ac6e56dbfb1c1a883e312126a4951eea7")
 	(:authors
 	 ("Jethro Kuan <jethrokuan95@gmail.com>, Carsten Dominik" . "carsten.dominik@gmail.com"))
 	(:maintainers

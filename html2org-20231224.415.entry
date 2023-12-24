@@ -1,9 +1,9 @@
 (html2org .
-	  [(20231217 216)
+	  [(20231224 415)
 	   ((emacs
 	     (24 4)))
 	   "Convert html to org format text" tar
-	   ((:commit . "6c5d82bf281048002ef400b63ee322ed7ddb00c9")
+	   ((:commit . "617136b09b60d852ea833b3074fa828206f0237a")
 	    (:authors
 	     ("DarkSun" . "lujun9972@gmail.com"))
 	    (:maintainers
