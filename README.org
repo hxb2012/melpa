@@ -9,9 +9,14 @@
 |-----------------+------------------------+----------+-----------------------------------------|
 | flatpak-tramp   | [[https://github.com/hxb2012/flatpak-tramp][hxb2012/flatpak-tramp]]  | 自制     | Flatpak里Emacs在宿主环境里打开文件      |
 | html2org        | [[http://github.com/lujun9972/html2org.el][lunjun9972/html2org.el]] | 改进     | HTML转Org                               |
+| orb             | [[https://github.com/hxb2012/orb][hxb2012/orb]]            | 自制     | Org Mode标题存入SQLite                  |
 | sqlite-backport | Emacs 29               | Backport | 老版本Emacs上用和Emacs 29相同SQLite API |
 
 * 更新记录
+
+** 2023-12-31
+
+- 添加 orb
 
 ** 2023-12-24
 

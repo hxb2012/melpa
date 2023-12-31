@@ -1,0 +1,5 @@
+(orb
+ :fetcher github
+ :commit "c54b5a79783b244e2c9df6f2afd31223f7fc9376"
+ :repo "hxb2012/orb"
+ :files (:defaults "make-copy.py"))
