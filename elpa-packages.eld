@@ -1,5 +1,6 @@
 (((html2org :url "https://github.com/hxb2012/html2org.el.git")
   (orb :url "https://github.com/hxb2012/orb.git")
+  (pdf-tools :url "https://github.com/hxb2012/pdf-tools.git")
   (remu :url "https://github.com/hxb2012/remu.git")
   (sqlite-backport :url "https://github.com/hxb2012/sqlite-backport.git")
   (toolbox-tramp :url "https://github.com/fejfighter/toolbox-tramp.git"))
