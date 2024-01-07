@@ -9,11 +9,16 @@
 |-----------------+--------------------------+------------+-----------------------------------------|
 | html2org        | [[http://github.com/lujun9972/html2org.el][lunjun9972/html2org.el]]   | 改进       | HTML转Org                               |
 | orb             | [[https://github.com/hxb2012/orb][hxb2012/orb]]              | 自制       | Org Mode标题存入SQLite                  |
+| pdf-tools       | [[https://github.com/hxb2012/pdf-tools][hxb2012/pdftools]]         | 改进       | 显示PDF                                 |
 | remu            | [[https://github.com/hxb2012/remu][hxb2012/remu]]             | 自制       | Org Mode侧栏                            |
 | sqlite-backport | Emacs 29                 | Backport   | 老版本Emacs上用和Emacs 29相同SQLite API |
 | toolbox-tramp   | [[https://github.com/fejfighter/toolbox-tramp][fejfighter/toolbox-tramp]] | 官方未收录 | Flatpak启动的Emacs，运行Toolbox里的命令 |
 
 * 更新记录
+
+** 2024-01-07
+
+- 添加 pdf-tools
 
 ** 2023-12-31
 

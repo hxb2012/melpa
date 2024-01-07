@@ -1,0 +1,5 @@
+(pdf-tools
+ :fetcher github
+ :repo "hxb2012/pdf-tools"
+ :commit "48c3440023dacdbad928f989c3b0bce7512a802c"
+ :files (:defaults "README" "epdfinfo"))
