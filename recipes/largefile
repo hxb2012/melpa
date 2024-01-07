@@ -1,0 +1,4 @@
+(largefile
+ :fetcher github
+ :commit "c0a3931a70f00e8d4eebcf8192ab9e6b073fb98d"
+ :repo "hxb2012/largefile")
