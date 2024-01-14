@@ -5,26 +5,31 @@ on:
     branches:
     - main
 
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: read
+      pages: write
+      id-token: write
     steps:
     - name: checkout
-      uses: actions/checkout@v3
-
-    - name: Install emacs
-      run: sudo apt-get install emacs
-
+      uses: actions/checkout@v4
+    - name: Install Flatpak
+      run: sudo apt-get install flatpak
+    - name: Install Emacs
+      run: sudo flatpak install -y https://dl.flathub.org/repo/appstream/org.gnu.emacs.flatpakref
+    - name: Setup Pages
+      uses: actions/configure-pages@v4
     - name: Build packages
-      run: mkdir -p working && ./build.el
-
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
-      if: ${{ github.ref == 'refs/heads/main' }}
+      run: mkdir -p working && flatpak run org.gnu.emacs --batch -Q --script ./build.el
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v3
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./packages
-        user_name: 'github-actions[bot]'
-        user_email: 'github-actions[bot]@users.noreply.github.com'
+        path: 'packages'
+    - name: Deploy to GitHub Pages
+      uses: actions/deploy-pages@v4
