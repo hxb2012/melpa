@@ -1,5 +1,5 @@
 (galactron
  :fetcher github
- :commit "7ca1a7875bbdcc768bac17dff52660ce85b6fde1"
+ :commit "4e51bcd7c660cbdc1bb14839e59738eb2c464dfb"
  :repo "hxb2012/galactron"
- :files (:defaults "epdfinfo"))
+ :files (:defaults "epdfinfo" "evpdfinfo"))
