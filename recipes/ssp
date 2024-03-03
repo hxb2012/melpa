@@ -1,0 +1,4 @@
+(ssp
+ :fetcher github
+ :commit "eb44ffa54addfc61dd79302400c00fb4506caf86"
+ :repo "hxb2012/ssp")

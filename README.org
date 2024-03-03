@@ -13,16 +13,22 @@
 | largefile       | [[https://github.com/hxb2012/largefile][hxb2012/largefile]]      | 自制     | 打开大文件                              |
 | orb             | [[https://github.com/hxb2012/orb][hxb2012/orb]]            | 自制     | Org Mode标题存入SQLite                  |
 | sqlite-backport | Emacs 29               | Backport | 老版本Emacs上用和Emacs 29相同SQLite API |
+| ssp             | [[https://github.com/hxb2012/ssp][hxb2012/ssp]]            | 自制     | 播放视频                                |
 
 * 更新记录
 
+** 2024-03-03
+
+- 添加 ssp
+- 更新 galactron
+
 ** 2024-02-25
 
-- 更新largefile
+- 更新 largefile
 
 ** 2024-02-18
 
-- 更新galactron
+- 更新 galactron
 
 ** 2024-02-11
 
@@ -30,11 +36,11 @@
 
 ** 2024-01-14
 
-- 添加galactron
+- 添加 galactron
 
 ** 2024-01-07
 
-- 添加largefile
+- 添加 largefile
 
 ** 2023-12-31
 
